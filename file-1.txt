@@ -8,3 +8,11 @@ git stash drop {<Index number>} -  to remove from stash without applying
 git stash clear - to clear entire stash
 
 This is the third feature
+
+git branch --track {<branch name same as remote branch nane this will be local tracking branch>} {<remote tracking branch name eg. origin/feature-remote>} => then we can use git push and pull directly on this local tracking branch easily as it sort of formed connection between the remote tracking branch and remote branch
+
+types of branches :-
+1. local branch
+2. remote branch
+3. remote tracking branch {git fetch}
+4. locak tracking branch {git pull/push}
