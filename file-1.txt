@@ -1,0 +1,10 @@
+Working on a new feature
+
+This is a another awesome git stash feature
+git stash list
+git stash apply {<Index Number>}
+git stash pop {<Index number>} - to apply and remove from the stash
+git stash drop {<Index number>} -  to remove from stash without applying
+git stash clear - to clear entire stash
+
+This is the third feature
